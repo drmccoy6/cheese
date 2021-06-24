@@ -1,0 +1,27 @@
+{
+  "name": "cheeses",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "pg": "^8.6.0",
+    "popper.js": "^1.16.1",
+    "sequelize": "^6.6.2",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0"
+  }
+}
