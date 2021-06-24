@@ -10,17 +10,17 @@
 //         path: "/",
 //         alias: "/cheeses",
 //         name: "cheeses",
-//         component: () => import("./components/CheeseList")
+//         component: () => import("../src/components/CheeseList")
 //       },
 //       {
 //         path: "/cheeses/:id",
 //         name: "cheese-details",
-//         component: () => import("./components/Cheese")
+//         component: () => import("../src/components/Cheese")
 //       },
 //       {
 //         path: "/add",
 //         name: "add",
-//         component: () => import("./components/AddCheese")
+//         component: () => import("../src/components/AddCheese")
 //       }
 //     ]
 //   });
@@ -32,17 +32,17 @@ const routes =  [
     path: "/",
     alias: "/cheeses",
     name: "cheeses",
-    component: () => import("./components/CheesesList")
+    component: () => import("../src/components/CheesesList")
   },
   {
     path: "/cheeses/:id",
     name: "cheese-details",
-    component: () => import("./components/Cheese")
+    component: () => import("../src/components/Cheese")
   },
   {
     path: "/add",
     name: "add",
-    component: () => import("./components/AddCheese")
+    component: () => import("../src/components/AddCheese")
   }
 ];
 
