@@ -29,20 +29,20 @@ import { createWebHistory, createRouter } from "vue-router";
 
 const routes =  [
   {
-    path: "/",
+     path: "/",
     alias: "/cheeses",
     name: "cheeses",
-    component: () => import("./components/CheesesList")
+    component: () => import("../src/components/CheeseList")
   },
   {
     path: "/cheeses/:id",
     name: "cheese-details",
-    component: () => import("./components/Cheese")
+    component: () => import("../src/components/Cheese")
   },
   {
     path: "/add",
     name: "add",
-    component: () => import("./components/AddCheese")
+    component: () => import("../src/components/AddCheese")
   }
 ];
 
